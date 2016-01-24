@@ -11,39 +11,40 @@ Front End Developer @GA in NYC
 html {
 	font-family:'Open Sans', sans-serif;
 	font-size: 26px;
-	border: white;
-	padding: 50px;
-	padding-top: 0px;
-	margin: 75px;
-	margin-top: 0px;
 	text-align: center;
 }
 .header {
 	background: url('../images/header_bg.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
     border: white;
-    padding: 50px;
     padding-top: 5px;
 	font-family:'Open Sans', sans-serif;
 	font-style: extra-bold;
-	font-size: 36px;
+	font-size: 48px;
 	color: #FFFFFF;
 }
 h1 {
 	text-align: left;
+	padding-top: 20px;
+	padding-left: 60px;
 }
 .getit {
 	color: black;
 	background: #f9e42e;
 	font-weight: bold;
-	font-size: 20px;
-	padding: 8px 40px 8px 40px;
+	font-size: 28px;
+	padding: 10px 60px 10px 60px;
 	border: none;
 	border-radius: 4px;
-	margin-bottom: 200px;
+	margin-bottom: 400px;
+	margin-top: 30px;
+}
+h2 {
+	padding-top: 80px;
 }
 h3 {
-	font-style: semi-bold;
+	font-weight: 600;
 	font-size: 40px;
 	text-align: left;
 	padding-top: 40px;
@@ -54,11 +55,12 @@ p {
 .benefits {
 	padding-left: 65px;
 	padding-top: 30px;
+	background-color: #f0efef;
 }
 ul { 
   list-style: disc inside;
   text-align: left;
-  margin-left: 100px;
+  margin-left: 70px;
   line-height: 35px;
   padding-bottom: 60px;
 
@@ -67,17 +69,47 @@ ul {
 	background: url('../images/testimonial_bg.jpg');
 	color: white;
 	font-style: italic;
-	font-size: 25px;
-	padding: 50px 100px 50px 100px;
-	line-height: 30px;
+	font-size: 36px;
+	padding: 70px 100px 70px 100px;
+	line-height: 45px;
 }
 #amanda {
-	font-size: 30px;
-	font-style: semi-bold;
+	font-size: 36px;
+	font-style: 600;
 }
 .footer {
-	background-color: black;
-	font-style: extra-bold;
+	font-weight: extra-bold;
 	font-size: 48px;
-}
+	background-color: #121212;
 
+}
+.signup {
+
+	color: white;
+	background: #033048;
+	font-weight: bold;
+	font-size: 28px;
+	padding: 15px 80px 15px 80px;
+	box-shadow: none;
+	border-radius: 4px;
+	border-color: #f9e42e;
+	border-style: solid;
+	border-width: 30px 500px 30px 500px;
+}
+footer {
+	background-color: #121212;
+}
+#logo {
+	padding: 60px;
+	padding-bottom: 30px;
+	color: #f9e42e;
+	font-size: 48px;
+	font-weight: 800;
+}
+.copyright {
+	font-size: 18px;
+	font-weight: 300;
+	color: white;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
