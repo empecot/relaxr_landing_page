@@ -1,0 +1,83 @@
+/*
+Project Name: Relaxr Landing Page
+Author: Emily Pecot
+Front End Developer @GA in NYC
+*/
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+html {
+	font-family:'Open Sans', sans-serif;
+	font-size: 26px;
+	border: white;
+	padding: 50px;
+	padding-top: 0px;
+	margin: 75px;
+	margin-top: 0px;
+	text-align: center;
+}
+.header {
+	background: url('../images/header_bg.jpg');
+	background-repeat: no-repeat;
+    border: white;
+    padding: 50px;
+    padding-top: 5px;
+	font-family:'Open Sans', sans-serif;
+	font-style: extra-bold;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+h1 {
+	text-align: left;
+}
+.getit {
+	color: black;
+	background: #f9e42e;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 8px 40px 8px 40px;
+	border: none;
+	border-radius: 4px;
+	margin-bottom: 200px;
+}
+h3 {
+	font-style: semi-bold;
+	font-size: 40px;
+	text-align: left;
+	padding-top: 40px;
+}
+p {
+	text-align: left;
+}
+.benefits {
+	padding-left: 65px;
+	padding-top: 30px;
+}
+ul { 
+  list-style: disc inside;
+  text-align: left;
+  margin-left: 100px;
+  line-height: 35px;
+  padding-bottom: 60px;
+
+}
+.testimonial {
+	background: url('../images/testimonial_bg.jpg');
+	color: white;
+	font-style: italic;
+	font-size: 25px;
+	padding: 50px 100px 50px 100px;
+	line-height: 30px;
+}
+#amanda {
+	font-size: 30px;
+	font-style: semi-bold;
+}
+.footer {
+	background-color: black;
+	font-style: extra-bold;
+	font-size: 48px;
+}
+
