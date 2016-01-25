@@ -75,7 +75,7 @@ ul {
 	line-height: 45px;
 }
 #amanda {
-	line-height: 25px;
+	line-height: 50px;
 	font-style: normal;
 	font-size: 36px;
 	font-weight: 600;
@@ -85,18 +85,23 @@ ul {
 	font-size: 48px;
 	background-color: #121212;
 }
-.signup {
-	color: white;
-	background: #033048;
-	font-weight: bold;
-	font-size: 28px;
-	padding: 15px 60px 15px 60px;
-	box-shadow: none;
-	border-radius: 4px;
-	border-color: #f9e42e;
-	border-style: solid;
-	border-width: 30px 440px 30px 440px;
+#signup {
+	height: 100px;
+	background-color: #f9e42e;
+	text-align: center;
+	padding-top: 30px;
 }
+#button {
+	color: white;
+  	background-color: #033048;
+  	font-weight: bold;
+	font-size: 28px;
+	border-radius: 4px;
+	height: 50px;
+	width: 300px;
+	padding-top: 10px;
+	margin: -10px;
+  }
 footer {
 	background-color: #121212;
 }
